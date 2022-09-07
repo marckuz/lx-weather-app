@@ -5,7 +5,7 @@
  */
 import L from "leaflet";
 
-const PREFIX = `http://localhost:8080/`;
+const PREFIX = ``;
 const WEATHER_API_SERVICE = "https://api.openweathermap.org/data/2.5/";
 
 const API_URL = `${PREFIX}${WEATHER_API_SERVICE}`;
