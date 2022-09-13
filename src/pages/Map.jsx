@@ -43,18 +43,16 @@ export default function MapPage() {
         const baseMaps = { "OSM Standard": osm };
         L.control.layers(baseMaps, overlayMaps).addTo(map);
         setLeafletMap(map);
-        console.log("map ", map);
-    }, []);
+    }, [data]);
 
     useEffect(() => {
         if (data?.latitude && data?.longitude && leafletMap) {
-            console.log("leafletMap ", leafletMap);
             leafletMap.setView(
                 [data.latitude, data.longitude],
                 10
             );
         }
-    }, [data]);
+    }, [leafletMap]);
 
-    return <div ref={mapRef} id="map" className="p-2" style={{height: "50vw", width: "100%"}}></div>;
+    return <div ref={mapRef} id="map" className="p-2" style={{height: "80vh", width: "100%"}}></div>;
 }
