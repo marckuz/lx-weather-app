@@ -59,9 +59,9 @@ export interface CountryType {
 }
 
 export interface TableColumn {
-    id: 'datetime' | 'temp' | 'feelslike' | 'dew' | 'humidity' | 'snow' | 'snowdepth' | 'windgust' | 'windspeed' | 'winddir' | 'cloudcover' | 'visibility' | 'uvindex' | 'sunrise' | 'sunset' | 'moonphase' | 'conditions' | 'description';
-    label: string;
-    minWidth?: number;
-    align?: 'right';
-    format?: (value: number) => string;
+    "id": 'datetime' | 'temp' | 'feelslike' | 'dew' | 'humidity' | 'snow' | 'snowdepth' | 'windgust' | 'windspeed' | 'winddir' | 'cloudcover' | 'visibility' | 'uvindex' | 'sunrise' | 'sunset' | 'moonphase' | 'conditions' | 'description';
+    "label": string;
+    "minWidth"?: number;
+    "align"?: 'right';
+    "format"?: (value: number) => string;
 }
