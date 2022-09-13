@@ -20,6 +20,12 @@ Recharts
 Swiper
 
 
+## API used
+https://openweathermap.org/ - for the Map data
+
+https://weather.visualcrossing.com - for the charts, table and card data
+
+
 ## Setup
 Build a frontend application using create-react-app-with-typescript as a starting point.
 

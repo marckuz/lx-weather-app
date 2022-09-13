@@ -59,7 +59,7 @@ const CardWeather = ({
           maxWidth: 345,
           background: "linear-gradient(to bottom, #57c1eb 0%,#246fa8 100%)",
         }}
-        onClick={setSelectedHour(index)}
+        onClick={() => setSelectedHour(index)}
       >
         <Link style={{ color: "white" }} to={"/hourly"}>
           <CardActionArea>

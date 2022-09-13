@@ -10,6 +10,7 @@ import "leaflet/dist/leaflet.css";
 import "../lib/leaflet-openweathermap";
 import L from "leaflet";
 
+//openstreetmap api key for demo purposes only
 const WEATHER_API_KEY = "064509463c96990192de40b25652f112";
 
 export default function MapPage() {
