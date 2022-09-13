@@ -6,11 +6,18 @@ Mark Anthony Elbambo
 
 ## Library used
 React
+
 React Router
+
 Material UI
+
 Leaflet
+
 Leaflet-openweathermap
+
 Recharts
+
+Swiper
 
 
 ## Setup
