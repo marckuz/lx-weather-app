@@ -33,7 +33,7 @@ export default function App() {
   }
 
   useEffect(() => {
-    getData();
+    getData(); //fetch data everytime location changes
   }, [location]);
 
   return (

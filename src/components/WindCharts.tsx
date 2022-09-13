@@ -2,20 +2,18 @@ import React, { useContext } from "react";
 import {
     ComposedChart,
     Line,
-    Area,
     Bar,
     XAxis,
     YAxis,
     CartesianGrid,
     Tooltip,
     Legend,
-    Scatter,
     ResponsiveContainer
 } from "recharts";
 import { AppContext } from "../context";
 
 export default function WindCharts() {
-    const { data, location } = useContext(AppContext);
+    const { data } = useContext(AppContext);
 
     return (
         <ResponsiveContainer width="100%" height={400}>
