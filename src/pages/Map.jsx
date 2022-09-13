@@ -1,7 +1,7 @@
 import React, { Fragment, useContext, useEffect, useRef, useState } from "react";
 import { AppContext } from "../context";
 import "leaflet/dist/leaflet.css";
-import "./leaflet-openweathermap";
+import "../lib/leaflet-openweathermap";
 import L from "leaflet";
 
 const WEATHER_API_KEY = "064509463c96990192de40b25652f112";
